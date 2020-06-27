@@ -1,0 +1,12 @@
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.deps.json
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.runtimeconfig.json
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.runtimeconfig.dev.json
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.dll
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/bin/Debug/netcoreapp3.1/LinqConsoleApp.pdb
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.csprojAssemblyReference.cache
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.AssemblyInfoInputs.cache
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.AssemblyInfo.cs
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.csproj.CoreCompileInputs.cache
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.dll
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.pdb
+/Users/jakub/Code/PJATK/LinqConsoleApp/LinqConsoleApp/obj/Debug/netcoreapp3.1/LinqConsoleApp.genruntimeconfig.cache
