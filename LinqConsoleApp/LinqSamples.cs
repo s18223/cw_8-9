@@ -214,7 +214,7 @@ namespace LinqConsoleApp
 
 
             //2. Lambda and Extension methods
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
            
         }
@@ -234,7 +234,7 @@ namespace LinqConsoleApp
                       };
 
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
 
         }
@@ -249,7 +249,7 @@ namespace LinqConsoleApp
                        select emp.Salary).Take(1);
 
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
         }
 
@@ -271,7 +271,7 @@ namespace LinqConsoleApp
                      };
 
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
         }
 
@@ -290,7 +290,7 @@ namespace LinqConsoleApp
                           Praca = Praca
                       };
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
         }
 
@@ -310,7 +310,7 @@ namespace LinqConsoleApp
                           nazwaDept = dept.Dname
                       };
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
         }
 
@@ -328,7 +328,7 @@ namespace LinqConsoleApp
                           LiczbaPracownikow = j.Count()
                       };
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
         }
 
@@ -342,7 +342,7 @@ namespace LinqConsoleApp
                        where emp.Job == "Backend programmer"
                        select emp).Any();
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             Console.WriteLine(res);
         }
 
@@ -362,7 +362,7 @@ namespace LinqConsoleApp
                        }).Take(1);
 
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
         }
 
@@ -399,6 +399,7 @@ namespace LinqConsoleApp
         {
             var res = Emps.Aggregate((agg, next) => next.Salary > agg.Salary ? next : agg);
 
+            ResultsDataGridView.DataSource = res.ToList();
             Console.WriteLine(res);
         }
 
@@ -408,7 +409,7 @@ namespace LinqConsoleApp
         {
             var res = Emps.SelectMany(emp => Depts, (x, y) => new { x, y });
 
-            //ResultsDataGridView.DataSource = res.ToList();
+            ResultsDataGridView.DataSource = res.ToList();
             res.ToList().ForEach(Console.WriteLine);
 
         }

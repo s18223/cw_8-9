@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{B214DAF8-859E-411F-940F-C64B10DABE17}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LinqSamples.cs">
     <Files>
-      <File FileName="LinqSamples.cs" Line="1" Column="1" />
-      <File FileName="Program.cs" Line="10" Column="27" />
+      <File FileName="LinqSamples.cs" Line="401" Column="1" />
+      <File FileName="Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LinqConsoleApp" expanded="True">
             <Node name="LinqConsoleApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
               <Node name="LinqSamples.cs" selected="True" />
             </Node>
           </Node>
